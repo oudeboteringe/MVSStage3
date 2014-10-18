@@ -1,4 +1,3 @@
-
 #!/usr/bin/env mkb
 
 options
@@ -7,34 +6,31 @@ options
 }
  
 
-subprojects
-
+files
 {
+    [source]
+    (source)
+    MVSStage3_main.cpp
+}
 
+subprojects
+{
     iw2d
-	iw2dscenegraph
+    iw2dscenegraph
     iw2dscenegraphcore
     soundengine
 
 }
 
- 
-
-files
-
+deployment
 {
-
-    main.cpp
-
 }
 
-
 assets
-
 {
-
     (data)
-
+    audio
     textures
-
+    (data-ram/data-gles1, data)
+    .
 }

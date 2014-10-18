@@ -1,0 +1,1 @@
+VC12X;build_mvsstage3_vc12x;

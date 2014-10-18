@@ -31,6 +31,8 @@
     </Filter>
     <Filter Include="'Marmalade Studio'\iw2d">
     </Filter>
+    <Filter Include="source">
+    </Filter>
     <Filter Include="'Marmalade Studio'\iwgxfont">
     </Filter>
     <Filter Include="'Marmalade Studio'">
@@ -1315,11 +1317,11 @@
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundWAV.cpp">
       <Filter>(soundengine)</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\MVSStage3_main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\extensions\pvrtextool\interface\PVRTexTool_interface.cpp">
       <Filter>Extensions\PVRTexTool\interface</Filter>
-    </ClCompile>
-    <ClCompile Include="..\main.cpp">
-      <Filter></Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
