@@ -13,7 +13,7 @@
     </Filter>
     <Filter Include="'Marmalade System (S3E)'\GL\GLES 1.x">
     </Filter>
-    <Filter Include="(soundengine)">
+    <Filter Include="(SoundEngine)">
     </Filter>
     <Filter Include="(libpng)\h">
     </Filter>
@@ -25,7 +25,7 @@
     </Filter>
     <Filter Include="'Marmalade System (S3E)'\Extensions">
     </Filter>
-    <Filter Include="(soundengine)\Docs">
+    <Filter Include="(SoundEngine)\Docs">
     </Filter>
     <Filter Include="'Marmalade Studio'\iw2dscenegraph">
     </Filter>
@@ -36,6 +36,8 @@
     <Filter Include="'Marmalade Studio'\iwgxfont">
     </Filter>
     <Filter Include="'Marmalade Studio'">
+    </Filter>
+    <Filter Include="include">
     </Filter>
     <Filter Include="'Marmalade Studio'\iw2dscenegraphcore">
     </Filter>
@@ -246,7 +248,7 @@
       <Filter>'Marmalade Studio'\iwresmanager</Filter>
     </None>
     <None Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/docs/iwsound.config.txt">
-      <Filter>(soundengine)\Docs</Filter>
+      <Filter>(SoundEngine)\Docs</Filter>
     </None>
     <None Include="c:/marmalade/7.4/modules/iwutil/docs/iwutil.config.txt">
       <Filter>'Marmalade Studio'\iwutil</Filter>
@@ -312,7 +314,7 @@
       <Filter>'Marmalade System (S3E)'\stdc headers\c++</Filter>
     </None>
     <None Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/soundengine.mkf">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </None>
     <None Include="c:/marmalade/7.4/s3e/h/std/c++/sstream">
       <Filter>'Marmalade System (S3E)'\stdc headers\c++</Filter>
@@ -659,7 +661,7 @@
       <Filter>'Marmalade Studio'\iwgx</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwResHandlerWAV.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/modules/iwresmanager/h/IwResManager.h">
       <Filter>'Marmalade Studio'\iwresmanager</Filter>
@@ -683,34 +685,34 @@
       <Filter>'Marmalade Studio'\iwutil</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSound.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundADPCM.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundData.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundGroup.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundInst.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundManager.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundPCM.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundParams.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundSpec.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/examples/gametutorial/cpp/modules/soundengine/h/IwSoundWAV.h">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/modules/iwutil/h/IwString.h">
       <Filter>'Marmalade Studio'\iwutil</Filter>
@@ -759,6 +761,9 @@
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/assert.h">
       <Filter>'Marmalade System (S3E)'\stdc headers</Filter>
+    </ClInclude>
+    <ClInclude Include="e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/include/audio.h">
+      <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/byteswap.h">
       <Filter>'Marmalade System (S3E)'\stdc headers</Filter>
@@ -817,6 +822,9 @@
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/c++/fstream.h">
       <Filter>'Marmalade System (S3E)'\stdc headers\c++</Filter>
     </ClInclude>
+    <ClInclude Include="e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/include/game.h">
+      <Filter>include</Filter>
+    </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/getopt.h">
       <Filter>'Marmalade System (S3E)'\stdc headers</Filter>
     </ClInclude>
@@ -861,6 +869,9 @@
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/ifaddrs.h">
       <Filter>'Marmalade System (S3E)'\stdc headers</Filter>
+    </ClInclude>
+    <ClInclude Include="e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/include/input.h">
+      <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/inttypes.h">
       <Filter>'Marmalade System (S3E)'\stdc headers</Filter>
@@ -928,6 +939,9 @@
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/locale.h">
       <Filter>'Marmalade System (S3E)'\stdc headers</Filter>
     </ClInclude>
+    <ClInclude Include="e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/include/mainMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/malloc.h">
       <Filter>'Marmalade System (S3E)'\stdc headers</Filter>
     </ClInclude>
@@ -964,6 +978,9 @@
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/sys/param.h">
       <Filter>'Marmalade System (S3E)'\stdc headers\sys</Filter>
     </ClInclude>
+    <ClInclude Include="e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/include/pauseMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/modules/third_party/libpng/h/png.h">
       <Filter>(libpng)\h</Filter>
     </ClInclude>
@@ -993,6 +1010,9 @@
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/sys/resource.h">
       <Filter>'Marmalade System (S3E)'\stdc headers\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/include/resources.h">
+      <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/c++/rlocks.h">
       <Filter>'Marmalade System (S3E)'\stdc headers\c++</Filter>
@@ -1128,6 +1148,9 @@
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/ext/s3edebugHeap.h">
       <Filter>'Marmalade System (S3E)'\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/include/scene.h">
+      <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.4/s3e/h/std/sched.h">
       <Filter>'Marmalade System (S3E)'\stdc headers</Filter>
@@ -1288,40 +1311,61 @@
       <Filter>'Marmalade Studio'\iw2dscenegraphcore</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwResHandlerWAV.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundADPCM.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundData.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundGroup.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundInst.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundManager.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundPCM.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundParams.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundSpec.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\examples\gametutorial\cpp\modules\soundengine\source\IwSoundWAV.cpp">
-      <Filter>(soundengine)</Filter>
+      <Filter>(SoundEngine)</Filter>
     </ClCompile>
     <ClCompile Include="..\source\MVSStage3_main.cpp">
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="c:\marmalade\7.4\extensions\pvrtextool\interface\PVRTexTool_interface.cpp">
       <Filter>Extensions\PVRTexTool\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\audio.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\game.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\input.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mainMenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\pauseMenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\resources.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\scene.cpp">
+      <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

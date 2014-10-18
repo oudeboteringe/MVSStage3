@@ -4,13 +4,34 @@ options
 {
     module_path="C:/Marmalade/7.4/examples/GameTutorial/CPP/modules"
 }
- 
+
+includepaths
+{
+    include
+}
 
 files
 {
     [source]
     (source)
+	audio.cpp
+	game.cpp
+	input.cpp
+	mainMenu.cpp
     MVSStage3_main.cpp
+	pauseMenu.cpp
+	resources.cpp
+	scene.cpp
+	
+    [include]
+    (include)
+	audio.h
+	game.h
+	input.h
+	mainMenu.h
+	pauseMenu.h
+	resources.h
+	scene.h
 }
 
 subprojects
@@ -18,7 +39,7 @@ subprojects
     iw2d
     iw2dscenegraph
     iw2dscenegraphcore
-    soundengine
+    SoundEngine
 
 }
 
