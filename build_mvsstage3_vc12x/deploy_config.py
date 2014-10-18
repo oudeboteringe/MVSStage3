@@ -4,7 +4,7 @@
 # tool during the build process.
 
 config = {}
-cmdline = ['C:/Marmalade/7.4/s3e/makefile_builder/mkb.py', 'e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/MVSStage3.mkb', '--buildenv=VC12X', '--fake-vc-call', '--default-buildenv=vc12x', '--msvc-project', '--deploy-only']
+cmdline = ['C:/Marmalade/7.4/s3e/makefile_builder/mkb.py', 'e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/MVSStage3.mkb', '--buildenv=VC12X', '--debug', '--x86', '--no-ide', '--make', '--deploy-only']
 mkb = 'e:/Documents/Michiel/Programmeren/Marmalade/MVSStage3/MVSStage3.mkb'
 mkf = ['c:\\marmalade\\7.4\\modules\\iw2d\\iw2d.mkf', 'c:\\marmalade\\7.4\\modules\\iwgx\\iwgx.mkf', 'c:\\marmalade\\7.4\\modules\\iwgl\\iwgl.mkf', 'c:\\marmalade\\7.4\\modules\\iwutil\\iwutil.mkf', 'c:\\marmalade\\7.4\\modules\\third_party\\libjpeg\\libjpeg.mkf', 'c:\\marmalade\\7.4\\modules\\third_party\\libpng\\libpng.mkf', 'c:\\marmalade\\7.4\\modules\\third_party\\zlib\\zlib.mkf', 'c:\\marmalade\\7.4\\modules\\iwgeom\\iwgeom.mkf', 'c:\\marmalade\\7.4\\modules\\iwresmanager\\iwresmanager.mkf', 'c:\\marmalade\\7.4\\extensions\\pvrtextool\\pvrtextool.mkf', 'c:\\marmalade\\7.4\\modules\\iwgxfont\\iwgxfont.mkf', 'c:\\marmalade\\7.4\\modules\\third_party\\tiniconv\\tiniconv.mkf', 'c:\\marmalade\\7.4\\modules\\iw2dscenegraph\\iw2dscenegraph.mkf', 'c:\\marmalade\\7.4\\modules\\iw2dscenegraphcore\\iw2dscenegraphcore.mkf', 'c:\\marmalade\\7.4\\examples\\gametutorial\\cpp\\modules\\soundengine\\soundengine.mkf']
 
