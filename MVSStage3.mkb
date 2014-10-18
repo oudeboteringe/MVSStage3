@@ -1,6 +1,10 @@
 
 #!/usr/bin/env mkb
 
+options
+{
+    module_path="C:/Marmalade/7.4/examples/GameTutorial/CPP/modules"
+}
  
 
 subprojects
@@ -8,6 +12,9 @@ subprojects
 {
 
     iw2d
+	iw2dscenegraph
+    iw2dscenegraphcore
+    soundengine
 
 }
 
